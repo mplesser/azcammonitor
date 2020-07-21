@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>AzCamMonitor Home</title>
+
+   <!-- Bootstrap -->
+   <link href="static/bootstrap/css/bootstrap-4.0.0.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="static/style.css">
+   <link rel="shortcut icon" href="static/favicon.ico">
+</head>
+
+<body>
+
+   <div class="jumbotron text-center">
+      <h2 id="title" class="display-5">AzCamMonitor Home</h2>
+   </div>
+
+   <div class="container">
+
+      <div class="card">
+         <div class="card-body">
+            <h4 class="card-title">Registered Processes</h4>
+
+            <table class="table">
+               <thead>
+                 <tr>
+                   <th scope="col">Number</th>
+                   <th scope="col">PID</th>
+                   <th scope="col">Name</th>
+                   <th scope="col">Port</th>
+                   <th scope="col">Script</th>
+                   <th scope="col">Host</th>
+                   <th scope="col">Flag</th>
+                   <th scope="col">Watchdog</th>
+                 </tr>
+               </thead>
+
+               <tbody>
+               {% for result in process_list %}
+               <tr>
+                  {% for r in result %}
+                     <td>{{r}}</td>
+                  {% endfor %}
+               </tr>
+               {% endfor %}
+               </tbody>
+
+         </div>
+      </div>
+
+   </div> <!-- end container -->
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="static/bootstrap/js/jquery-3.2.1.min.js"></script>
+   <script src="static/bootstrap/js/popper.min.js"></script>
+   <script src="static/bootstrap/js/bootstrap-4.0.0.js"></script>
+</body>
+
+</html>
