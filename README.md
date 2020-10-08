@@ -1,14 +1,14 @@
-# azcammonitor
+# azcam-monitor
 
-*azcammonitor* is an python app used to monitor and control *azcam* processes on the local network.
+*azcam-monitor* is an python app used to monitor and control *azcam* processes on the local network.
 
 ## Documentation
 
-See https://github.com/mplesser/azcammonitor.git#readme.
+See https://github.com/mplesser/azcam-monitor.git#readme.
 
 ## Installation
 
-Download from github: https://github.com/mplesser/azcammonitor.  
+Download from github: https://github.com/mplesser/azcam-monitor.  
 
 ## Startup and configuration
 
