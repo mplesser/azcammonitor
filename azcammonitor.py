@@ -1,17 +1,18 @@
 # AzCam Monitor class
 
-import socket
-import threading
-import socketserver
-import time
-import os
-import sys
-import subprocess
-import psutil
 import configparser
+import os
+import socket
+import socketserver
+import subprocess
+import sys
+import threading
+import time
+
+import psutil
+from webserver.web_server import WebServer
 
 import azcam
-from webserver.web_server import WebServer
 
 
 class DataItem(object):

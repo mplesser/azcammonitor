@@ -2,10 +2,11 @@
 # Allows sending UDP register request to the AzCam Monitor application
 # Allows sending and receiving braodcast ID request
 
-import socket
+import ipaddress
 import multiprocessing
-import time, ipaddress
 import os
+import socket
+import time
 
 
 class UDPinterface(object):
