@@ -51,7 +51,9 @@ class WebServer(object):
             # get new list each time page is refreshed
             self.azcammonitor.refresh_processes()
             self.azcammonitor.get_ids()
-            return render_template(index_home, process_list=self.azcammonitor.process_list)
+            return render_template(
+                index_home, process_list=self.azcammonitor.process_list
+            )
 
         # ******************************************************************************
         # api commands
