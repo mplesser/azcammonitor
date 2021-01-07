@@ -2,13 +2,11 @@
 
 *azcam-monitor* is an *azcam* extension app used to monitor and control *azcam* processes on the local network.
 
-## Documentation
-
-See https://github.com/mplesser/azcam-monitor.git#readme.
-
 ## Installation
 
-Download from github: https://github.com/mplesser/azcam-monitor.  
+`pip install azam-monitor`
+
+Or download from github: https://github.com/mplesser/azcam-monitor.git.
 
 ## Startup and configuration
 
