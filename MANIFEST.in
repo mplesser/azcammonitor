@@ -1,0 +1,6 @@
+include azcam_monitor/webserver/*
+include azcam_monitor/webserver/static/*
+include azcam_monitor/webserver/static/bootstrap/*
+include azcam_monitor/webserver/static/bootstrap/css/*
+include azcam_monitor/webserver/static/bootstrap/js/*
+

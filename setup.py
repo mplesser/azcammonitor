@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="azcam-monitor",
-    version="21.1",
+    version="21.1.1",
     description="azcam processes monitor and control app",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -15,4 +15,5 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     install_requires=["azcam", "flask", "psutil"],
+    include_package_data=True,
 )
